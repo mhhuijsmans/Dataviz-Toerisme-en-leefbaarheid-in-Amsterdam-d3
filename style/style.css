@@ -1,0 +1,1610 @@
+/*
+    ****************** Normalize ******************
+*/
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%
+  /* 2 */ }
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+template,
+[hidden] {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects
+  /* 2 */ }
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em
+  /* 2 */ }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible
+  /* 2 */ }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0
+  /* 2 */ }
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+optgroup {
+  font-weight: bold; }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal
+  /* 1 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit
+  /* 2 */ }
+
+/*
+    ****************** Essentials ******************
+*/
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased !important;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+a:active, a:hover {
+  outline: none; }
+
+button, textarea {
+  -webkit-appearance: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0; }
+
+ol, ul {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/*
+    ****************** Variables ******************
+*/
+#splashscreen {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  height: 100%;
+  background-color: #363e51; }
+  #splashscreen h1,
+  #splashscreen h2 {
+    font-family: "Georgia", "serif";
+    line-height: 75px; }
+  #splashscreen h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    color: #e9e9e9;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    margin-top: 200px; }
+  #splashscreen h2 {
+    font-size: 20px;
+    color: #787b83;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; }
+  #splashscreen span {
+    color: #19b4be; }
+  #splashscreen .slider-wrapper {
+    width: 100%;
+    height: 400px;
+    position: relative; }
+  #splashscreen .slide {
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+  #splashscreen .slide1 {
+    opacity: 1;
+    -webkit-animation: slide1 10s infinite;
+            animation: slide1 10s infinite; }
+  #splashscreen .slide2 {
+    opacity: 0;
+    -webkit-animation: slide2 10s infinite;
+            animation: slide2 10s infinite; }
+  #splashscreen .slide3 {
+    opacity: 0;
+    -webkit-animation: slide3 10s infinite;
+            animation: slide3 10s infinite; }
+  #splashscreen .huisje1 {
+    opacity: 1;
+    -webkit-animation: huisje1 10s infinite;
+            animation: huisje1 10s infinite; }
+  #splashscreen .huisje2 {
+    opacity: 0;
+    -webkit-animation: huisje2 10s infinite;
+            animation: huisje2 10s infinite; }
+  #splashscreen .huisje3 {
+    opacity: 0;
+    -webkit-animation: huisje3 10s infinite;
+            animation: huisje3 10s infinite; }
+  #splashscreen svg {
+    position: absolute;
+    bottom: 0;
+    margin: 5em;
+    right: 0; }
+
+@-webkit-keyframes slide1 {
+  0% {
+    opacity: 1; }
+  11.1% {
+    opacity: 1; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes slide1 {
+  0% {
+    opacity: 1; }
+  11.1% {
+    opacity: 1; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes slide2 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 1; }
+  44.4% {
+    opacity: 1; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes slide2 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 1; }
+  44.4% {
+    opacity: 1; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes slide3 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 1; }
+  77.7% {
+    opacity: 1; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes slide3 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 1; }
+  77.7% {
+    opacity: 1; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes huisje1 {
+  0% {
+    opacity: 1; }
+  11.1% {
+    opacity: 1; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes huisje1 {
+  0% {
+    opacity: 1; }
+  11.1% {
+    opacity: 1; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes huisje2 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 1; }
+  44.4% {
+    opacity: 1; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes huisje2 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 1; }
+  44.4% {
+    opacity: 1; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 0; }
+  77.7% {
+    opacity: 0; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes huisje3 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 1; }
+  77.7% {
+    opacity: 1; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes huisje3 {
+  0% {
+    opacity: 0; }
+  11.1% {
+    opacity: 0; }
+  22.2% {
+    opacity: 0; }
+  33.3% {
+    opacity: 0; }
+  44.4% {
+    opacity: 0; }
+  55.5% {
+    opacity: 0; }
+  66.6% {
+    opacity: 1; }
+  77.7% {
+    opacity: 1; }
+  88.8% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+.loadercontainer {
+  position: relative;
+  display: block;
+  margin: 25px auto 0;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 25%;
+  height: 140px;
+  -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+          transform: scale(0.6); }
+
+.circleloader {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  border-radius: 100%;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  border-top-color: #FFF;
+  -webkit-animation: spin 1s infinite linear;
+          animation: spin 1s infinite linear; }
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+.huisje {
+  width: initial !important;
+  height: initial !important; }
+
+body {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif; }
+
+svg {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  position: relative;
+  height: 100%; }
+
+.is-hidden {
+  display: none !important; }
+
+.no-pointer {
+  cursor: initial !important; }
+
+.popup {
+  position: fixed;
+  z-index: 99999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .popup .popup__container {
+    position: relative;
+    width: 750px;
+    font-size: 14px;
+    padding: 35px 50px;
+    background-color: #efefef; }
+    .popup .popup__container p {
+      margin-bottom: 0; }
+    .popup .popup__container ul {
+      list-style: circle;
+      list-style-position: inside; }
+    .popup .popup__container #popup__cross {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer; }
+
+.container__amsterdam {
+  width: calc(100% - 475px); }
+
+#amsterdam {
+  background-color: #fff; }
+
+#Kaart {
+  opacity: 1; }
+
+.zoom {
+  position: absolute;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #363e51;
+  cursor: pointer; }
+  .zoom.is-disabled {
+    background-color: #d3d3d3; }
+  .zoom rect {
+    fill: #fff; }
+
+.zoom-in {
+  top: 20px; }
+
+.zoom-out {
+  top: 63px; }
+
+#filter {
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  width: 240px;
+  height: 150px;
+  background-color: #363e51;
+  -webkit-transition: bottom .3s ease-in;
+          transition: bottom .3s ease-in; }
+  #filter .do-filterBG {
+    -webkit-transform: translate(205px, 17px);
+        -ms-transform: translate(205px, 17px);
+            transform: translate(205px, 17px);
+    cursor: pointer; }
+  #filter .do-filteropen {
+    display: none;
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 2px;
+    -webkit-transform: scale(0.2) translate(1025px, 75px);
+        -ms-transform: scale(0.2) translate(1025px, 75px);
+            transform: scale(0.2) translate(1025px, 75px);
+    cursor: pointer; }
+  #filter .do-filterclose {
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 2px;
+    -webkit-transform: scale(0.2) translate(1025px, 95px);
+        -ms-transform: scale(0.2) translate(1025px, 95px);
+            transform: scale(0.2) translate(1025px, 95px);
+    cursor: pointer; }
+  #filter.is-closed {
+    bottom: -100px; }
+    #filter.is-closed .do-filteropen {
+      display: initial; }
+    #filter.is-closed .do-filterclose {
+      display: none; }
+
+.selectlaag {
+  fill: #fff;
+  -webkit-transform: translate(25px, 30px);
+      -ms-transform: translate(25px, 30px);
+          transform: translate(25px, 30px); }
+
+.filter {
+  cursor: pointer; }
+  .filter text {
+    fill: #fff; }
+  .filter circle {
+    -webkit-transform: translate(-25px, -5px);
+        -ms-transform: translate(-25px, -5px);
+            transform: translate(-25px, -5px); }
+  .filter.filterhotels circle {
+    fill: #7a61f0; }
+  .filter.filterairbnb circle {
+    fill: #4990e2; }
+  .filter.filtertoeristischeattracties circle {
+    fill: #fd5a4b; }
+  .filter.is-disabled text {
+    fill: #6a6d7c; }
+  .filter.is-disabled circle {
+    fill: #363e51;
+    stroke: #6a6d7c; }
+
+g.hotel circle.dot {
+  fill: #7a61f0;
+  opacity: 0.8; }
+
+g.airbnb circle.dot {
+  fill: #4990e2;
+  opacity: 0.8; }
+
+g.attractie_museum circle.dot {
+  fill: #fd5a4b;
+  opacity: 0.8; }
+
+.musea-tooltip {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 150px;
+  background-color: #fff; }
+  .musea-tooltip .circle {
+    position: absolute;
+    top: -35px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: #fd5a4b;
+    border-radius: 50%; }
+  .musea-tooltip .naam {
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 50px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a6d7c; }
+  .musea-tooltip .percentage {
+    font-size: 38px;
+    font-weight: bold;
+    color: #6a6d7c; }
+  .musea-tooltip .aantal {
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: lightgray; }
+
+#qmark {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 26px;
+  height: 26px;
+  fill: #cdcdcd;
+  cursor: pointer; }
+  #qmark:hover {
+    fill: #ffc33f; }
+
+.container__dashboard {
+  width: 475px;
+  background-color: #363e51; }
+
+.container__graph {
+  position: fixed;
+  top: 0;
+  right: 475px;
+  overflow: hidden;
+  width: 0;
+  background-color: #363e51;
+  -webkit-transition: width .3s ease-in;
+          transition: width .3s ease-in; }
+  .container__graph.graph-is-visible {
+    width: 500px; }
+  .container__graph .closegraph {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    cursor: pointer; }
+    .container__graph .closegraph:hover {
+      color: #ffc33f; }
+  .container__graph .graph {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column-reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%; }
+    .container__graph .graph > svg {
+      width: initial;
+      height: initial; }
+      .container__graph .graph > svg text {
+        fill: #fff;
+        font-family: "Source Sans Pro", sans-serif !important; }
+      .container__graph .graph > svg line {
+        stroke: #efefef !important; }
+      .container__graph .graph > svg .legend:not([text-anchor="middle"]) {
+        display: none; }
+    .container__graph .graph .graphlegenda {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      color: #fff; }
+      .container__graph .graph .graphlegenda > div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      .container__graph .graph .graphlegenda .legendacirkel {
+        display: inline;
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        border: 1px solid white; }
+        .container__graph .graph .graphlegenda .legendacirkel.blauw {
+          background-color: #4990e2;
+          margin-left: 30px; }
+        .container__graph .graph .graphlegenda .legendacirkel.paars {
+          background-color: #7a61f0; }
+
+#stadsdeel-select {
+  font-size: 40px;
+  font-family: "Cormorant Garamond", serif;
+  fill: #fff;
+  -webkit-transform: translate(50px, 70px);
+      -ms-transform: translate(50px, 70px);
+          transform: translate(50px, 70px); }
+
+.loc3 {
+  -webkit-transform: translate(0, 33px);
+      -ms-transform: translate(0, 33px);
+          transform: translate(0, 33px); }
+
+.loc2 {
+  fill: #ffc33f;
+  text-decoration: underline;
+  -webkit-transform: translate(0, 66px);
+      -ms-transform: translate(0, 66px);
+          transform: translate(0, 66px);
+  cursor: pointer; }
+
+#stadsdeel-list {
+  fill: #fff;
+  -webkit-transform: translate(0, 110px);
+      -ms-transform: translate(0, 110px);
+          transform: translate(0, 110px);
+  cursor: pointer; }
+
+.stadsdeel-select__stadsdeel:hover {
+  fill: #ffc33f; }
+
+#adam1 {
+  position: relative;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 1s;
+          transition: transform 1s; }
+  #adam1.hide-dashboard {
+    -webkit-transform: translate(0, -1000px);
+        -ms-transform: translate(0, -1000px);
+            transform: translate(0, -1000px); }
+
+#adam2 {
+  position: relative;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 1s;
+          transition: transform 1s; }
+  #adam2.hide-dashboard1 {
+    -webkit-transform: translate(0, 1000px);
+        -ms-transform: translate(0, 1000px);
+            transform: translate(0, 1000px); }
+  #adam2.hide-dashboard2 {
+    -webkit-transform: translate(0, -1000px);
+        -ms-transform: translate(0, -1000px);
+            transform: translate(0, -1000px); }
+
+#adam3 {
+  position: relative;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 1s;
+          transition: transform 1s; }
+  #adam3.hide-dashboard {
+    -webkit-transform: translate(0, 1000px);
+        -ms-transform: translate(0, 1000px);
+            transform: translate(0, 1000px); }
+
+#stad1 {
+  position: relative;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 1s;
+          transition: transform 1s; }
+  #stad1.hide-dashboard {
+    -webkit-transform: translate(0, -1000px);
+        -ms-transform: translate(0, -1000px);
+            transform: translate(0, -1000px); }
+
+#stad2 {
+  position: relative;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 1s;
+          transition: transform 1s; }
+  #stad2.hide-dashboard {
+    -webkit-transform: translate(0, 1000px);
+        -ms-transform: translate(0, 1000px);
+            transform: translate(0, 1000px); }
+
+#bewoners, #bewonersStad, #overnachting, #oordeelAdam, #oordeelStad {
+  cursor: pointer; }
+
+#bewoners, #bewonersStad, #bevolkingsdichtheid {
+  -webkit-transform: translate(50px, 220px);
+      -ms-transform: translate(50px, 220px);
+          transform: translate(50px, 220px); }
+  #bewoners:hover .bar, #bewonersStad:hover .bar, #bevolkingsdichtheid:hover .bar {
+    stroke: #4990e2; }
+  #bewoners:hover .bar1, #bewonersStad:hover .bar1, #bevolkingsdichtheid:hover .bar1 {
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    height: 20px;
+    -webkit-animation: movebar1 2s infinite;
+            animation: movebar1 2s infinite; }
+  #bewoners:hover .bar2, #bewonersStad:hover .bar2, #bevolkingsdichtheid:hover .bar2 {
+    -webkit-transform: translate(8px, 10px);
+        -ms-transform: translate(8px, 10px);
+            transform: translate(8px, 10px);
+    height: 10px;
+    -webkit-animation: movebar2 2s infinite;
+            animation: movebar2 2s infinite; }
+  #bewoners:hover .bar3, #bewonersStad:hover .bar3, #bevolkingsdichtheid:hover .bar3 {
+    -webkit-transform: translate(16px, -5px);
+        -ms-transform: translate(16px, -5px);
+            transform: translate(16px, -5px);
+    height: 25px;
+    -webkit-animation: movebar3 2s infinite;
+            animation: movebar3 2s infinite; }
+  #bewoners:hover .bar4, #bewonersStad:hover .bar4, #bevolkingsdichtheid:hover .bar4 {
+    -webkit-transform: translate(24px, 5px);
+        -ms-transform: translate(24px, 5px);
+            transform: translate(24px, 5px);
+    height: 15px;
+    -webkit-animation: movebar4 2s infinite;
+            animation: movebar4 2s infinite; }
+
+.bewoners1, .bewonersStad1, .bevolkingsdichtheid1 {
+  fill: #fff;
+  font-size: 55px;
+  font-weight: bold; }
+
+.bewoners2, .bewonersStad2, .bevolkingsdichtheid2 {
+  fill: #6a6d7c;
+  font-size: 14px;
+  -webkit-transform: translate(0, 25px);
+      -ms-transform: translate(0, 25px);
+          transform: translate(0, 25px); }
+
+#overnachting, #hotelsperkm2, #bewonersStadkm2 {
+  -webkit-transform: translate(50px, 370px);
+      -ms-transform: translate(50px, 370px);
+          transform: translate(50px, 370px); }
+  #overnachting:hover .bar, #hotelsperkm2:hover .bar, #bewonersStadkm2:hover .bar {
+    stroke: #4990e2; }
+  #overnachting:hover .bar1, #hotelsperkm2:hover .bar1, #bewonersStadkm2:hover .bar1 {
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    height: 20px;
+    -webkit-animation: movebar1 2s infinite;
+            animation: movebar1 2s infinite; }
+  #overnachting:hover .bar2, #hotelsperkm2:hover .bar2, #bewonersStadkm2:hover .bar2 {
+    -webkit-transform: translate(8px, 10px);
+        -ms-transform: translate(8px, 10px);
+            transform: translate(8px, 10px);
+    height: 10px;
+    -webkit-animation: movebar2 2s infinite;
+            animation: movebar2 2s infinite; }
+  #overnachting:hover .bar3, #hotelsperkm2:hover .bar3, #bewonersStadkm2:hover .bar3 {
+    -webkit-transform: translate(16px, -5px);
+        -ms-transform: translate(16px, -5px);
+            transform: translate(16px, -5px);
+    height: 25px;
+    -webkit-animation: movebar3 2s infinite;
+            animation: movebar3 2s infinite; }
+  #overnachting:hover .bar4, #hotelsperkm2:hover .bar4, #bewonersStadkm2:hover .bar4 {
+    -webkit-transform: translate(24px, 5px);
+        -ms-transform: translate(24px, 5px);
+            transform: translate(24px, 5px);
+    height: 15px;
+    -webkit-animation: movebar4 2s infinite;
+            animation: movebar4 2s infinite; }
+
+.overnachting1, .hotelsperkm21, .bewonersStadkm21 {
+  fill: #fff;
+  font-size: 55px;
+  font-weight: bold; }
+
+.overnachting2, .hotelsperkm22, .bewonersStadkm22 {
+  fill: #6a6d7c;
+  font-size: 14px;
+  -webkit-transform: translate(0, 25px);
+      -ms-transform: translate(0, 25px);
+          transform: translate(0, 25px); }
+
+#gastenperbewoner, #woningperkm2, #hotelsStadkm2 {
+  -webkit-transform: translate(50px, 520px);
+      -ms-transform: translate(50px, 520px);
+          transform: translate(50px, 520px); }
+
+.gastenperbewoner1, .woningperkm21, .hotelsStadkm21 {
+  fill: #fff;
+  font-size: 55px;
+  font-weight: bold; }
+
+.gastenperbewoner2, .woningperkm22, .hotelsStadkm22 {
+  fill: #6a6d7c;
+  font-size: 14px;
+  -webkit-transform: translate(0, 25px);
+      -ms-transform: translate(0, 25px);
+          transform: translate(0, 25px); }
+
+#oordeelAdam, #oordeelStad {
+  -webkit-transform: translate(50px, 450px);
+      -ms-transform: translate(50px, 450px);
+          transform: translate(50px, 450px); }
+  #oordeelAdam:hover .bar, #oordeelStad:hover .bar {
+    stroke: #4990e2; }
+  #oordeelAdam:hover .bar1, #oordeelStad:hover .bar1 {
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    height: 20px;
+    -webkit-animation: movebar1 2s infinite;
+            animation: movebar1 2s infinite; }
+  #oordeelAdam:hover .bar2, #oordeelStad:hover .bar2 {
+    -webkit-transform: translate(8px, 10px);
+        -ms-transform: translate(8px, 10px);
+            transform: translate(8px, 10px);
+    height: 10px;
+    -webkit-animation: movebar2 2s infinite;
+            animation: movebar2 2s infinite; }
+  #oordeelAdam:hover .bar3, #oordeelStad:hover .bar3 {
+    -webkit-transform: translate(16px, -5px);
+        -ms-transform: translate(16px, -5px);
+            transform: translate(16px, -5px);
+    height: 25px;
+    -webkit-animation: movebar3 2s infinite;
+            animation: movebar3 2s infinite; }
+  #oordeelAdam:hover .bar4, #oordeelStad:hover .bar4 {
+    -webkit-transform: translate(24px, 5px);
+        -ms-transform: translate(24px, 5px);
+            transform: translate(24px, 5px);
+    height: 15px;
+    -webkit-animation: movebar4 2s infinite;
+            animation: movebar4 2s infinite; }
+
+.oordeelAdam1, .oordeelStad1 {
+  fill: #fff;
+  font-size: 55px;
+  font-weight: bold; }
+
+.oordeelAdam2, .oordeelStad2 {
+  fill: #6a6d7c;
+  font-size: 14px;
+  -webkit-transform: translate(0, 25px);
+      -ms-transform: translate(0, 25px);
+          transform: translate(0, 25px); }
+
+.scheidingslijn {
+  stroke: #6a6d7c;
+  stroke-width: 1px; }
+
+.lijn1 {
+  -webkit-transform: translate(50px, 290px);
+      -ms-transform: translate(50px, 290px);
+          transform: translate(50px, 290px); }
+
+.lijn2 {
+  -webkit-transform: translate(50px, 440px);
+      -ms-transform: translate(50px, 440px);
+          transform: translate(50px, 440px); }
+
+.lijn3 {
+  -webkit-transform: translate(50px, 370px);
+      -ms-transform: translate(50px, 370px);
+          transform: translate(50px, 370px); }
+
+.bars {
+  -webkit-transform: translate(330px, -20px);
+      -ms-transform: translate(330px, -20px);
+          transform: translate(330px, -20px); }
+
+#adam1 g.is-active .bar, #adam2 g.is-active .bar, #adam3 g.is-active .bar, #stad1 g.is-active .bar, #stad2 g.is-active .bar {
+  stroke: #4990e2 !important; }
+
+.bar {
+  stroke: #fff;
+  stroke-width: 2px; }
+
+.bar1 {
+  height: 20px; }
+
+.bar2 {
+  -webkit-transform: translate(8px, 10px);
+      -ms-transform: translate(8px, 10px);
+          transform: translate(8px, 10px);
+  height: 10px; }
+
+.bar3 {
+  -webkit-transform: translate(16px, -5px);
+      -ms-transform: translate(16px, -5px);
+          transform: translate(16px, -5px);
+  height: 25px; }
+
+.bar4 {
+  -webkit-transform: translate(24px, 5px);
+      -ms-transform: translate(24px, 5px);
+          transform: translate(24px, 5px);
+  height: 15px; }
+
+@-webkit-keyframes movebar1 {
+  0% {
+    height: 20px;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+  25% {
+    height: 10px;
+    -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px); }
+  50% {
+    height: 25px;
+    -webkit-transform: translate(0, -5px);
+            transform: translate(0, -5px); }
+  75% {
+    height: 15px;
+    -webkit-transform: translate(0, 5px);
+            transform: translate(0, 5px); }
+  100% {
+    height: 20px;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); } }
+
+@keyframes movebar1 {
+  0% {
+    height: 20px;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+  25% {
+    height: 10px;
+    -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px); }
+  50% {
+    height: 25px;
+    -webkit-transform: translate(0, -5px);
+            transform: translate(0, -5px); }
+  75% {
+    height: 15px;
+    -webkit-transform: translate(0, 5px);
+            transform: translate(0, 5px); }
+  100% {
+    height: 20px;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); } }
+@-webkit-keyframes movebar2 {
+  0% {
+    height: 10px;
+    -webkit-transform: translate(8px, 10px);
+            transform: translate(8px, 10px); }
+  25% {
+    height: 20px;
+    -webkit-transform: translate(8px, 0);
+            transform: translate(8px, 0); }
+  50% {
+    height: 15px;
+    -webkit-transform: translate(8px, 5px);
+            transform: translate(8px, 5px); }
+  75% {
+    height: 25px;
+    -webkit-transform: translate(8px, -5px);
+            transform: translate(8px, -5px); }
+  100% {
+    height: 10px;
+    -webkit-transform: translate(8px, 10px);
+            transform: translate(8px, 10px); } }
+@keyframes movebar2 {
+  0% {
+    height: 10px;
+    -webkit-transform: translate(8px, 10px);
+            transform: translate(8px, 10px); }
+  25% {
+    height: 20px;
+    -webkit-transform: translate(8px, 0);
+            transform: translate(8px, 0); }
+  50% {
+    height: 15px;
+    -webkit-transform: translate(8px, 5px);
+            transform: translate(8px, 5px); }
+  75% {
+    height: 25px;
+    -webkit-transform: translate(8px, -5px);
+            transform: translate(8px, -5px); }
+  100% {
+    height: 10px;
+    -webkit-transform: translate(8px, 10px);
+            transform: translate(8px, 10px); } }
+@-webkit-keyframes movebar3 {
+  0% {
+    height: 25px;
+    -webkit-transform: translate(16px, -5px);
+            transform: translate(16px, -5px); }
+  25% {
+    height: 15px;
+    -webkit-transform: translate(16px, 5px);
+            transform: translate(16px, 5px); }
+  50% {
+    height: 10px;
+    -webkit-transform: translate(16px, 10px);
+            transform: translate(16px, 10px); }
+  75% {
+    height: 20px;
+    -webkit-transform: translate(16px, 0);
+            transform: translate(16px, 0); }
+  100% {
+    height: 25px;
+    -webkit-transform: translate(16px, -5px);
+            transform: translate(16px, -5px); } }
+@keyframes movebar3 {
+  0% {
+    height: 25px;
+    -webkit-transform: translate(16px, -5px);
+            transform: translate(16px, -5px); }
+  25% {
+    height: 15px;
+    -webkit-transform: translate(16px, 5px);
+            transform: translate(16px, 5px); }
+  50% {
+    height: 10px;
+    -webkit-transform: translate(16px, 10px);
+            transform: translate(16px, 10px); }
+  75% {
+    height: 20px;
+    -webkit-transform: translate(16px, 0);
+            transform: translate(16px, 0); }
+  100% {
+    height: 25px;
+    -webkit-transform: translate(16px, -5px);
+            transform: translate(16px, -5px); } }
+@-webkit-keyframes movebar4 {
+  0% {
+    height: 15px;
+    -webkit-transform: translate(24px, 5px);
+            transform: translate(24px, 5px); }
+  25% {
+    height: 20px;
+    -webkit-transform: translate(24px, 0);
+            transform: translate(24px, 0); }
+  50% {
+    height: 25px;
+    -webkit-transform: translate(24px, -5px);
+            transform: translate(24px, -5px); }
+  75% {
+    height: 10px;
+    -webkit-transform: translate(24px, 10px);
+            transform: translate(24px, 10px); }
+  100% {
+    height: 15px;
+    -webkit-transform: translate(24px, 5px);
+            transform: translate(24px, 5px); } }
+@keyframes movebar4 {
+  0% {
+    height: 15px;
+    -webkit-transform: translate(24px, 5px);
+            transform: translate(24px, 5px); }
+  25% {
+    height: 20px;
+    -webkit-transform: translate(24px, 0);
+            transform: translate(24px, 0); }
+  50% {
+    height: 25px;
+    -webkit-transform: translate(24px, -5px);
+            transform: translate(24px, -5px); }
+  75% {
+    height: 10px;
+    -webkit-transform: translate(24px, 10px);
+            transform: translate(24px, 10px); }
+  100% {
+    height: 15px;
+    -webkit-transform: translate(24px, 5px);
+            transform: translate(24px, 5px); } }
+.bgrect {
+  fill: #363e51; }
+
+#buurtpuntentekst, #buurtpuntenStadtekst {
+  -webkit-transform: translate(50px, 220px);
+      -ms-transform: translate(50px, 220px);
+          transform: translate(50px, 220px); }
+  #buurtpuntentekst .kopje, #buurtpuntenStadtekst .kopje {
+    fill: #fff;
+    text-transform: uppercase;
+    font-size: 14px; }
+  #buurtpuntentekst #buurtpuntendef, #buurtpuntentekst #buurtpuntenStaddef, #buurtpuntenStadtekst #buurtpuntendef, #buurtpuntenStadtekst #buurtpuntenStaddef {
+    fill: #cdcdcd;
+    -webkit-transform: translate(0, 40px);
+        -ms-transform: translate(0, 40px);
+            transform: translate(0, 40px);
+    font-size: 15px; }
+    #buurtpuntentekst #buurtpuntendef .def2, #buurtpuntentekst #buurtpuntenStaddef .def2, #buurtpuntenStadtekst #buurtpuntendef .def2, #buurtpuntenStadtekst #buurtpuntenStaddef .def2 {
+      -webkit-transform: translate(0, 20px);
+          -ms-transform: translate(0, 20px);
+              transform: translate(0, 20px); }
+    #buurtpuntentekst #buurtpuntendef .def3, #buurtpuntentekst #buurtpuntenStaddef .def3, #buurtpuntenStadtekst #buurtpuntendef .def3, #buurtpuntenStadtekst #buurtpuntenStaddef .def3 {
+      -webkit-transform: translate(0, 40px);
+          -ms-transform: translate(0, 40px);
+              transform: translate(0, 40px); }
+    #buurtpuntentekst #buurtpuntendef .def4, #buurtpuntentekst #buurtpuntenStaddef .def4, #buurtpuntenStadtekst #buurtpuntendef .def4, #buurtpuntenStadtekst #buurtpuntenStaddef .def4 {
+      -webkit-transform: translate(0, 60px);
+          -ms-transform: translate(0, 60px);
+              transform: translate(0, 60px); }
+
+#graphAdam1 {
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column; }
+
+#graphStad1 text, #graphAdam1 text {
+  fill: #cdcdcd; }
+#graphStad1 .axis path,
+#graphStad1 .axis line, #graphAdam1 .axis path,
+#graphAdam1 .axis line {
+  fill: none;
+  shape-rendering: crispEdges; }
+#graphStad1 .x.axis line, #graphAdam1 .x.axis line {
+  display: none; }
+#graphStad1 .x.axis path, #graphAdam1 .x.axis path {
+  display: none; }
+#graphStad1 .line, #graphAdam1 .line {
+  fill: none;
+  stroke: #4990e2;
+  stroke-width: 3.5px; }
+#graphStad1 .graphlinecircle, #graphAdam1 .graphlinecircle {
+  fill: #4990e2; }
+#graphStad1 .tick line, #graphAdam1 .tick line {
+  stroke: rgba(255, 255, 255, 0.3) !important; }
+
+.tipgraph {
+  color: #fff; }
+
+.scrolltext {
+  fill: #fff; }
+  .scrolltext text {
+    font-size: 14px;
+    text-transform: uppercase; }

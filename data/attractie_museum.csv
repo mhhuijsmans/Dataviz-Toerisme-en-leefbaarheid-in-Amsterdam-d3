@@ -1,0 +1,72 @@
+id,naam,attractie_museum,stadsdeel,lat,long,bezoekers,percentage_bezoekers
+447,Rijksmuseum,museum,Zuid,52.3600009,4.8830301,2653,41.7
+448,Van Gogh Museum,museum,Zuid,52.3584192,4.8788869,3348,52.6
+449,Tropenmuseum,museum,Oost,52.3626597,4.9201103,317,5
+450,Stedelijk Museum,museum,Zuid,52.3579475,4.8788939,835,13.1
+451,Rembrandthuis,museum,Centrum,52.3693723,4.8990464,891,14
+452,Hermitage,museum,Centrum,52.3652891,4.9002128,336,5.3
+453,Appel Arts Centre,museum,Centrum,52.3733977,4.9041181,42,0.7
+454,Anne Frank Huis,museum,Centrum,52.3752182,4.8839765,2577,40.5
+455,Joods Amsterdam Museum,museum,Centrum,52.3671215,4.9016268,168,2.6
+456,Scheepvaartmuseum,museum,Centrum,52.3717117,4.9126911,286,4.5
+457,Amsterdam Museum,museum,Centrum,52.3699907,4.8877854,538,8.5
+458,Allard Pierson,museum,Centrum,52.3687353,4.8908423,29,0.5
+459,Beurs van Berlage,museum,Centrum,52.375178,4.8938271,20,0.3
+460,Theater Museum,museum,Centrum,52.3608892,4.9044621,35,0.6
+461,Bijbels Museum,museum,Centrum,52.3677075,4.884829,29,0.5
+462,Persmuseum,museum,Oost,52.3689923,4.9378735,7,0.1
+463,Het Stadsarchief,museum,Centrum,52.3645362,4.8922132,16,0.3
+464,Verzetsmuseum,museum,Centrum,52.3678953,4.9104462,74,1.2
+465,Woonbootmuseum,museum,Centrum,52.3701427,4.880411,53,0.8
+466,Bijzondere collecties UvA,museum,Centrum,52.3681881,4.8914283,13,0.2
+467,Uitvaartmuseum Totzover,museum,Oost,52.3460794,4.9363482,8,0.1
+468,Multatuli Huis,museum,Centrum,52.3774863,4.8910345,7,0.1
+469,Tulpmuseum,attractie,Centrum,52.376325,4.8841203,183,2.9
+470,Museum Van Loon,museum,Centrum,52.3634466,4.8911919,100,1.6
+471,Het Grachtenhuis,attractie,Centrum,52.36789,4.8841007,51,0.8
+472,Geelvinck Hinlopen Huis,museum,Centrum,52.36384,4.8921478,28,0.4
+473,Pijpenkabinet,museum,Centrum,52.3641227,4.8843455,20,0.3
+474,Tassenmuseum Hendrikje,museum,Centrum,52.3652731,4.8946349,443,7
+475,Museum Willet Holthuijsen,museum,Centrum,52.365606,4.8967808,54,0.8
+476,Kattenkabinet,attractie,Centrum,52.3656326,4.891548,30,0.5
+477,EYE Filmmuseum,museum,Noord,52.3843513,4.8990873,409,6.4
+478,FOAM,museum,Centrum,52.3640896,4.8911337,234,3.7
+479,Huis Marseille,museum,Centrum,52.3675242,4.8826219,36,0.6
+480,Museum Het Schip,museum,West,52.3904047,4.871624,40,0.6
+481,Science Center NEMO,museum,Centrum,52.3737888,4.9112819,784,12.3
+482,ARCAM,museum,Centrum,52.372391,4.9113598,33,0.5
+483,Micropia,museum,Centrum,52.3669115,4.9103873,58,0.9
+484,Bodyworlds,attractie,Centrum,52.3747534,4.8948908,135,2.1
+485,De Oude Kerk,museum,Centrum,52.3743704,4.896018,321,5
+486,Nieuwe Kerk,museum,Centrum,52.3739607,4.8895209,266,4.2
+487,Museum Ons Lieve Heer op Solder,museum,Centrum,52.375163,4.897194,99,1.6
+488,Koninklijk Paleis op de Dam,museum,Centrum,52.3731893,4.8891793,260,4.1
+489,Rondlopen op de wallen,attractie,Centrum,52.372691,4.896954,1035,16.3
+490,Rondvaarten,attractie,Centrum,52.3779729,4.8963045,846,13.3
+492,Dierentuin Artis Royal Zoo,attractie,Centrum,52.3660036,4.9143434,443,7
+493,I amsterdam Letters,attractie,Zuid,52.3591193,4.8838922,526,8.3
+494,Cultuurpark Westergasfabriek,attractie,West,52.385981,4.8721715,38,0.6
+495,Westerpark,attractie,West,52.3860327,4.8760875,139,2.2
+496,Albert Cuyp Markt,attractie,Zuid,52.355972,4.895386,290,4.6
+497,NDSM Werf,attractie,Noord,52.3984954,4.8931185,54,0.8
+499,Heineken Experience,attractie,Zuid,52.3574345,4.8863656,784,12.3
+500,Diamantmuseum,attractie,Zuid,52.3594474,4.8824884,160,2.5
+501,Molen van Sloten - Kuiperijmuseum,attractie,Nieuw-West,52.3415821,4.7923138,7,0.1
+502,House of Bols,attractie,Zuid,52.3590607,4.8790918,29,0.5
+503,Sexmuseum,attractie,Centrum,52.376595,4.895418,465,7.3
+504,World of Ajax,attractie,Zuidoost,52.3143713,4.9419641,55,0.9
+505,Hash Marijuana Hemp Museum,attractie,Centrum,52.3717805,4.8969197,88,1.4
+507,Amsterdam Dungeon,attractie,Centrum,52.3670988,4.8891646,147,2.3
+508,Tunfun Speelpark,attractie,Centrum,52.3678898,4.9047297,5,0.1
+509,Holland Casino,attractie,Centrum,52.3623939,4.8797843,36,0.6
+510,Madame Tussauds Amsterdam,attractie,Centrum,52.3726157,4.8904918,399,6.3
+511,BotanischeTuin,attractie,Centrum,52.3670229,4.9088319,81,1.3
+512,De Hollandsche Manege,attractie,West,52.3610147,4.8722667,5,0.1
+513,Torture Museum,attractie,Centrum,52.3673273,4.8906602,122,1.9
+515,Amsterdam Expo,attractie,Zuid,52.3369324,4.8723874,18,0.3
+516,De Bijenkorf,attractie,Centrum,52.3735653,4.8921793,70,1.1
+517,Amsterdam Arena,attractie,Zuidoost,52.3143746,4.9397754,69,1.1
+518,Paradiso,attractie,Centrum,52.3621542,4.8816008,21,0.3
+519,Ziggo Dome,attractie,Zuidoost,52.3134278,4.9349846,12,0.2
+520,Heineken Music Hall,attractie,Zuidoost,52.3120972,4.9424183,32,0.5
+521,Melkweg,attractie,Centrum,52.3647893,4.8790602,16,0.3
